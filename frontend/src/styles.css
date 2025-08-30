@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+.input {
+  @apply bg-zinc-900 border border-zinc-800 rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500/50;
+}
+.btn {
+  @apply rounded-xl px-3 py-2 bg-indigo-600 hover:bg-indigo-500 transition;
+}
+.card {
+  @apply bg-zinc-900 border border-zinc-800 rounded-2xl p-4 shadow;
+}
+.table {
+  @apply w-full text-sm;
+}
+.th, .td {
+  @apply px-3 py-2 text-left border-b border-zinc-800;
+}
+.badge {
+  @apply inline-flex items-center rounded-full px-2 py-1 text-xs bg-zinc-800 border border-zinc-700;
+}

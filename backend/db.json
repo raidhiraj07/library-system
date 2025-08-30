@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "2d15c0e5-8713-4101-b27c-55c400861832",
+      "name": "Libby Librarian",
+      "email": "librarian@example.com",
+      "role": "librarian",
+      "password": "$2a$10$TVWPxNiBgh2Lz6uTVgumO.NZE1CH6vD5ENBO/X/IYDzIECH5OQOl2"
+    },
+    {
+      "id": "adfe5fea-1076-4b43-9c26-1535321e71e7",
+      "name": "Bora Borrower",
+      "email": "borrower@example.com",
+      "role": "borrower",
+      "password": "$2a$10$8fnHUbORftdH3DwuWB6RvOojxBMVnSN4knzEb342fpEVyexRNTlEW"
+    }
+  ],
+  "books": [
+    {
+      "id": "c2ba40c5-1548-41dd-9697-b04bbf576c0a",
+      "title": "the murderer",
+      "author": "Amick Khadka",
+      "isbn": "453",
+      "description": "amick kills everyone",
+      "copiesTotal": 5,
+      "copiesAvailable": 5,
+      "createdAt": "2025-08-30T09:23:14.747Z",
+      "updatedAt": "2025-08-30T09:23:14.747Z"
+    }
+  ],
+  "borrows": [
+    {
+      "id": "c5d163b8-d759-4dcc-b9f9-a83da357bbd2",
+      "bookId": "c2ba40c5-1548-41dd-9697-b04bbf576c0a",
+      "userId": "adfe5fea-1076-4b43-9c26-1535321e71e7",
+      "borrowedAt": "2025-08-30T09:28:33.030Z",
+      "dueAt": "2025-09-13T09:28:33.031Z",
+      "returnedAt": "2025-08-30T10:50:20.578Z"
+    }
+  ]
+}
